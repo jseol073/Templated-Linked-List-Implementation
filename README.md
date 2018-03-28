@@ -1,2 +1,5 @@
 # SnakeLinkedList
-Initial Snake LInked List
+Initial Snake Linked List
+
+* src - Source files
+* test - Test files
