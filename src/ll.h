@@ -4,6 +4,8 @@
 #include<iostream>
 #include<vector>
 
+#include "snakebody.h"
+
 namespace snakelinkedlist {
 
 /*
@@ -22,7 +24,7 @@ public:
     // Default constructor
     LinkedList();
     // Initilize from vector
-    explicit LinkedList(const std::vector<SnakeBodySegment> &values);
+    explicit LinkedList(const std::vector<SnakeBodySegment>& values);
     // Big 5
     LinkedList(const LinkedList& source);                // Copy constructor
     LinkedList(LinkedList&& source) noexcept;            // Move constructor
@@ -45,11 +47,11 @@ public:
     std::vector<SnakeBodySegment> GetVector() const; // return a vector of the values
     bool empty() const;                              // check if empty
     friend std::ostream& operator<<(std::ostream& os, const LinkedList& list);
-    bool operator==(const LinkedList &rhs) const;
+    bool operator==(const LinkedList& rhs) const;
 };
 
 // This can effiently be implemented outside the class
-bool operator!=(const LinkedList& lhs, const LinkedList &rhs);
+bool operator!=(const LinkedList& lhs, const LinkedList& rhs);
 
 } // namespace snakelinkedlist
 #endif //LL_H
