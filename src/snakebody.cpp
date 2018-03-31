@@ -1,5 +1,7 @@
 #include "snakebody.h"
 
+#include <iostream>
+
 namespace snakelinkedlist {
 
 std::ostream& operator<<(std::ostream& os, const SnakeBodySegment& list) {
@@ -13,14 +15,6 @@ bool operator==(const SnakeBodySegment& lhs, const SnakeBodySegment& rhs) {
 
 bool operator!=(const SnakeBodySegment& lhs, const SnakeBodySegment& rhs) {
     return !(lhs == rhs);
-}
-
-SnakeBodySegment operator+(const SnakeBodySegment& lhs, const SnakeBodySegment& rhs) {
-    return(SnakeBodySegment(lhs.data_ + rhs.data_));    
-}
-
-SnakeBodySegment operator+(const SnakeBodySegment& lhs, const SnakeBodySegment& rhs) {
-    return(SnakeBodySegment(lhs.data_ + rhs.data_));    
 }
 
 } // namespace snakelinkedlist
