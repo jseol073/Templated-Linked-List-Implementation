@@ -28,7 +28,11 @@ namespace snakelinkedlist {
     
     LinkedList::LinkedList(const LinkedList& source) {
         if (source.list_head) {
-            list_head = new Node(*source.list_head);
+            Node *temp = source.list_head;
+            while (temp -> next != NULL) {
+                temp = new Node(*source.list_head);
+                temp = temp -> next;
+            }
         } else {
             list_head = nullptr;
         }
@@ -51,9 +55,6 @@ namespace snakelinkedlist {
     }
     
     void LinkedList::push_back(SnakeBodySegment value) {
-        if(!list_head) {
-            return;
-        }
         Node *new_node = new Node(value);
         new_node -> next = NULL;
         if (list_head == NULL) {
@@ -96,10 +97,13 @@ namespace snakelinkedlist {
     }
     
     void LinkedList::RemoveNth(int n) {
+        if (!list_head) {
+            return;
+        }
         Node *current = list_head;
         Node *prev = new Node(NULL);
         
-        for(int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             prev = current;
             current = current -> next;
         }
@@ -122,17 +126,21 @@ namespace snakelinkedlist {
         if (list_head == NULL) {
             return SnakeBodySegment();
         }
-        return list_head -> data;
+        SnakeBodySegment first_value = list_head -> data;
+        return first_value;
     }
     
     SnakeBodySegment LinkedList::back() const {
         if (list_head == NULL) {
             return SnakeBodySegment();
         }
-        while (list_head -> next != NULL) {
-            //list_head = list_head -> next;
+        Node *temp = list_head;
+        while (temp -> next != NULL) {
+            temp = temp -> next;
         }
-        return list_head -> data;
+        SnakeBodySegment last_value = temp -> data;
+        delete temp;
+        return last_value;
     }
     
     int LinkedList::size() const {
@@ -149,7 +157,14 @@ namespace snakelinkedlist {
         return list_to_vector;
     }
     
-    std::ostream & operator<<(std::ostream& os, const LinkedList &list) {
+    bool LinkedList::empty() const {
+        if (list_head == nullptr) {
+            return true;
+        }
+        return false;
+    }
+    
+    std::ostream& operator<<(std::ostream& os, const LinkedList &list) {
         LinkedList copy_list = list;
         for(int i = 0; i < list.size(); i++) {
             os << copy_list.list_head -> data << ", ";
@@ -159,22 +174,42 @@ namespace snakelinkedlist {
     }
     
     bool LinkedList::operator==(const LinkedList& rhs) const {
-        
+        if ((*this).size() != rhs.size()) {
+            return false;
+        } else {
+            Node *temp_this = list_head;
+            Node *temp_rhs = rhs.list_head;
+            while (temp_this -> next != NULL && temp_rhs -> next != NULL) {
+                if (temp_this -> data != temp_rhs -> data) {
+                    return false;
+                } else {
+                    temp_this = temp_this -> next;
+                    temp_rhs = temp_rhs -> next;
+                }
+            }
+        }
+        return true;
     }
     
-//    LinkedList::LinkedList& operator=(const LinkedList& source) {
-//        if(this == &source) {
-//            return;
-//        }
-//        delete list_head;
-//        list_head = nullptr;
-//        if(source.list_head) {
-//            list_head = new Node(*source.list_head);
-//        }
-//        return *this;
-//    }
+    LinkedList& LinkedList::operator=(const LinkedList& source) {
+        if(this == &source) {
+            return *this;
+        }
+        clear();
+        list_head = nullptr;
+        Node *source_node = source.list_head;
+        while (source_node -> next) {
+            if(source.list_head) {
+                list_head = new Node(*source.list_head);
+                source_node = source_node -> next;
+            }
+        }
+        return *this;
+    }
     
     bool operator!=(const LinkedList& lhs, const LinkedList& rhs) {
+        //Node *lhs_temp = lhs.list_head;
+        
         return !(lhs == rhs);
     }
 
