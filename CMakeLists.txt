@@ -3,5 +3,5 @@ SET(CMAKE_CXX_COMPILER g++)
 cmake_minimum_required(VERSION 3.5)
 project(snake-linked-list)
 set(CMAKE_CXX_STANDARD 14)
-add_executable(snake-linked-list src/ll.h src/snakebody.h src/ll.cpp src/snakebody.cpp)
-add_executable(unit-tests test/test.cpp test/catch.hpp src/ll.cpp)
+
+add_executable(unit-tests test/test.cpp test/catch.hpp src/ll.h src/ll.cpp src/snakebody.cpp src/snakebody.h)

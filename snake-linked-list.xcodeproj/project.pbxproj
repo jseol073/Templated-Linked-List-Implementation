@@ -35,47 +35,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		13FAA4ED0E734B8D828CB375 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.h */ = {isa = PBXBuildFile; fileRef = 01A64CBE5D2B422FABB3BA96 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.h */; };
-		2C0120A16782479FA0341F16 /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A9EF605213864BE581086725 /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */; };
-		4B8E8E92E89A488DBFAFCC75 /* /Users/johnseol/snake-linked-list-jseol073/test/catch.hpp */ = {isa = PBXBuildFile; fileRef = 19C1916F683542F0A1FB4419 /* /Users/johnseol/snake-linked-list-jseol073/test/catch.hpp */; };
-		6EA2B2E94B8940E898409060 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.h */ = {isa = PBXBuildFile; fileRef = 9559C260F4FE4334945C1480 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.h */; };
-		7461C4B25A5146A4A876C704 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */ = {isa = PBXBuildFile; fileRef = 87A768241F3B49C092B4E788 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */; };
-		9E88BA0EC35543B6A640DEE7 /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E99CD66DBFA8415B9D66AF61 /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */; };
-		B223A9F484E54FB38980A804 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */ = {isa = PBXBuildFile; fileRef = 4BA58F7E71074793A4BA0960 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */; };
-		CA18F916BA3F4E7F9C3C37E8 /* /Users/johnseol/snake-linked-list-jseol073/test/test.cpp */ = {isa = PBXBuildFile; fileRef = 31EEA091603944ECACF9945A /* /Users/johnseol/snake-linked-list-jseol073/test/test.cpp */; };
-		CDFE5C01E64B4F90A954E543 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.cpp */ = {isa = PBXBuildFile; fileRef = D4FD3FA68A184A1BBA6B1E82 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.cpp */; };
+		A0BDB69F2072A45200C8A26F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0BDB69E2072A45200C8A26F /* main.cpp */; };
+		A0BDB6A02072A45200C8A26F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0BDB69E2072A45200C8A26F /* main.cpp */; };
+		B223A9F484E54FB38980A804 /* ll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BA58F7E71074793A4BA0960 /* ll.cpp */; };
+		CA18F916BA3F4E7F9C3C37E8 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31EEA091603944ECACF9945A /* test.cpp */; };
+		CDFE5C01E64B4F90A954E543 /* snakebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		05551765FFE34076A0130816 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		9AFB357CE29E4B76A933FA8C /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		C5726E63FC744B3588FCC927 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		D8201725AFA64C79B72D5A42 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		0A6437AB5B404A28BB4D58B9 /* PBXContainerItemProxy */ = {
@@ -116,26 +81,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A64CBE5D2B422FABB3BA96 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ll.h; path = src/ll.h; sourceTree = SOURCE_ROOT; };
-		19C1916F683542F0A1FB4419 /* /Users/johnseol/snake-linked-list-jseol073/test/catch.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = catch.hpp; path = test/catch.hpp; sourceTree = SOURCE_ROOT; };
+		01A64CBE5D2B422FABB3BA96 /* ll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ll.h; path = src/ll.h; sourceTree = SOURCE_ROOT; };
+		19C1916F683542F0A1FB4419 /* catch.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = catch.hpp; path = test/catch.hpp; sourceTree = SOURCE_ROOT; };
 		287D6D6BD730425CBB02B366 /* snake-linked-list */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "snake-linked-list"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31EEA091603944ECACF9945A /* /Users/johnseol/snake-linked-list-jseol073/test/test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = test/test.cpp; sourceTree = SOURCE_ROOT; };
-		4BA58F7E71074793A4BA0960 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ll.cpp; path = src/ll.cpp; sourceTree = SOURCE_ROOT; };
+		31EEA091603944ECACF9945A /* test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = test/test.cpp; sourceTree = SOURCE_ROOT; };
+		4BA58F7E71074793A4BA0960 /* ll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ll.cpp; path = src/ll.cpp; sourceTree = SOURCE_ROOT; };
 		8500DCA63D83406AA9F1CEFB /* unit-tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "unit-tests"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87A768241F3B49C092B4E788 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ll.cpp; path = src/ll.cpp; sourceTree = SOURCE_ROOT; };
-		9559C260F4FE4334945C1480 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = snakebody.h; path = src/snakebody.h; sourceTree = SOURCE_ROOT; };
-		A9EF605213864BE581086725 /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B301309CCB26447E8A24B48B /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D4FD3FA68A184A1BBA6B1E82 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = snakebody.cpp; path = src/snakebody.cpp; sourceTree = SOURCE_ROOT; };
-		E99CD66DBFA8415B9D66AF61 /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		87A768241F3B49C092B4E788 /* ll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ll.cpp; path = src/ll.cpp; sourceTree = SOURCE_ROOT; };
+		9559C260F4FE4334945C1480 /* snakebody.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = snakebody.h; path = src/snakebody.h; sourceTree = SOURCE_ROOT; };
+		A0BDB69E2072A45200C8A26F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		A9EF605213864BE581086725 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B301309CCB26447E8A24B48B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = snakebody.cpp; path = src/snakebody.cpp; sourceTree = SOURCE_ROOT; };
+		E99CD66DBFA8415B9D66AF61 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		12E3EC3683504AC2B70508DA /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				87A768241F3B49C092B4E788 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */,
-				D4FD3FA68A184A1BBA6B1E82 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.cpp */,
+				87A768241F3B49C092B4E788 /* ll.cpp */,
+				A0BDB69E2072A45200C8A26F /* main.cpp */,
+				D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -160,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				5963D4F04A1A4CAEBF2158AA /* CMake Rules */,
-				B301309CCB26447E8A24B48B /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */,
+				B301309CCB26447E8A24B48B /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -180,7 +147,7 @@
 			children = (
 				E2AF4ED2845B46B7BD91A111 /* Header Files */,
 				12E3EC3683504AC2B70508DA /* Source Files */,
-				E99CD66DBFA8415B9D66AF61 /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */,
+				E99CD66DBFA8415B9D66AF61 /* CMakeLists.txt */,
 			);
 			name = "snake-linked-list";
 			sourceTree = "<group>";
@@ -190,7 +157,7 @@
 			children = (
 				FEAD2F75D6794E1094187A45 /* Source Files */,
 				F3825363D9484E8788389E3F /* Header Files */,
-				A9EF605213864BE581086725 /* /Users/johnseol/snake-linked-list-jseol073/CMakeLists.txt */,
+				A9EF605213864BE581086725 /* CMakeLists.txt */,
 			);
 			name = "unit-tests";
 			sourceTree = "<group>";
@@ -198,8 +165,8 @@
 		E2AF4ED2845B46B7BD91A111 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				01A64CBE5D2B422FABB3BA96 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.h */,
-				9559C260F4FE4334945C1480 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.h */,
+				01A64CBE5D2B422FABB3BA96 /* ll.h */,
+				9559C260F4FE4334945C1480 /* snakebody.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -207,7 +174,7 @@
 		F3825363D9484E8788389E3F /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				19C1916F683542F0A1FB4419 /* /Users/johnseol/snake-linked-list-jseol073/test/catch.hpp */,
+				19C1916F683542F0A1FB4419 /* catch.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -215,8 +182,8 @@
 		FEAD2F75D6794E1094187A45 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BA58F7E71074793A4BA0960 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */,
-				31EEA091603944ECACF9945A /* /Users/johnseol/snake-linked-list-jseol073/test/test.cpp */,
+				4BA58F7E71074793A4BA0960 /* ll.cpp */,
+				31EEA091603944ECACF9945A /* test.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -266,18 +233,14 @@
 				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 6A352604C75D475CAD9321EC /* Build configuration list for PBXProject "snake-linked-list" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				C5726E63FC744B3588FCC927 /* Debug */,
-				9AFB357CE29E4B76A933FA8C /* Release */,
-				D8201725AFA64C79B72D5A42 /* MinSizeRel */,
-				05551765FFE34076A0130816 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 690FBFF037614417AAABE355;
-			projectDirPath = .;
+			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1B6D4D146D514EFF9505DD8D /* ALL_BUILD */,
@@ -300,21 +263,6 @@
 			shellScript = "make -C /Users/johnseol/snake-linked-list-jseol073 -f /Users/johnseol/snake-linked-list-jseol073/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		6C92398E8DD5448587BC28B1 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		9BA547DA416147F7875D0247 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,21 +274,6 @@ exit 0";
 			shellScript = "make -C /Users/johnseol/snake-linked-list-jseol073 -f /Users/johnseol/snake-linked-list-jseol073/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		F618A9C20E4E42E49A7E3085 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -348,8 +281,9 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B223A9F484E54FB38980A804 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */,
-				CA18F916BA3F4E7F9C3C37E8 /* /Users/johnseol/snake-linked-list-jseol073/test/test.cpp */,
+				B223A9F484E54FB38980A804 /* ll.cpp in Sources */,
+				CA18F916BA3F4E7F9C3C37E8 /* test.cpp in Sources */,
+				A0BDB6A02072A45200C8A26F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,8 +291,8 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7461C4B25A5146A4A876C704 /* /Users/johnseol/snake-linked-list-jseol073/src/ll.cpp */,
-				CDFE5C01E64B4F90A954E543 /* /Users/johnseol/snake-linked-list-jseol073/src/snakebody.cpp */,
+				CDFE5C01E64B4F90A954E543 /* snakebody.cpp in Sources */,
+				A0BDB69F2072A45200C8A26F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,18 +336,29 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "unit-tests";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -424,7 +369,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -433,7 +378,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -444,7 +394,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -453,7 +403,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -464,7 +419,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -473,7 +428,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -484,7 +444,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -493,7 +453,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -504,7 +469,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -513,7 +478,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -526,18 +496,29 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "snake-linked-list";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -550,18 +531,29 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "unit-tests";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -572,7 +564,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -581,7 +573,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -594,18 +591,26 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "unit-tests";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -618,18 +623,29 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "unit-tests";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -660,18 +676,26 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "snake-linked-list";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -693,18 +717,29 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "snake-linked-list";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -715,7 +750,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -724,7 +759,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -744,7 +784,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -753,7 +793,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -766,18 +811,29 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "snake-linked-list";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};

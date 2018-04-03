@@ -14,7 +14,9 @@ namespace snakelinkedlist {
 struct Node {
     SnakeBodySegment data;
     Node* next;
-    Node(SnakeBodySegment data, Node* next) : data(data) , next(next) {}
+    
+    //Constructor:
+    Node(SnakeBodySegment data) : data(data) , next(nullptr) {};
 };
 
 
@@ -26,7 +28,8 @@ class LinkedList {
      */
 private:
     Node* list_head;
-
+    int length;
+    
 public:
     // Default constructor
     LinkedList();
