@@ -9,27 +9,25 @@ namespace snakelinkedlist {
     }
     
     LinkedList::LinkedList(const std::vector<SnakeBodySegment>& values) {
-        //init head
-        //
-        //for each snakeSegment values
-        //  make a node
-        //  add the node to the linked_list using only a single pointer
-        
-        length = values.size();
-        list_head = new Node(values.at(0));
-        Node* tmp = list_head;
-        
-        for (auto segment : values) {
-            tmp -> next = new Node(segment);
-            tmp = tmp -> next;
+        length = 0;
+        if (values.size() != 0) {
+            list_head = new Node(values.at(0));
+            length++;
+            Node *temp = list_head;
+            for (int i = 1; i < values.size(); i++) {
+                temp -> next = new Node(values.at(i));
+                temp = temp -> next;
+                length++;
+            }
+        } else {
+            list_head = nullptr;
         }
-        delete tmp;
     }
     
     LinkedList::LinkedList(const LinkedList& source) {
         if (source.list_head) {
-            Node *temp = source.list_head;
-            while (temp -> next != NULL) {
+            Node *temp = list_head;
+            while (temp) {
                 temp = new Node(*source.list_head);
                 temp = temp -> next;
             }
@@ -39,8 +37,19 @@ namespace snakelinkedlist {
     }
     
     LinkedList::LinkedList(LinkedList&& source) noexcept {
-        list_head = source.list_head;
-        source.list_head = nullptr;
+        if (source.list_head) {
+            Node *temp = list_head;
+            Node *source_node = source.list_head;
+            while (temp) {
+                temp = new Node(*source.list_head);
+                delete source_node;
+                temp = temp -> next;
+                source_node = source_node -> next;
+            }
+        } else {
+            list_head = nullptr;
+            source.list_head = nullptr;
+        }
     }
     
     LinkedList::~LinkedList() {
@@ -58,17 +67,14 @@ namespace snakelinkedlist {
         Node *new_node = new Node(value);
         new_node -> next = NULL;
         if (list_head == NULL) {
-            list_head  = new_node;
-            return;
+            list_head = new_node;
         } else {
-            Node *temp = new Node(value);
-            temp = list_head;
-            
+            Node *temp = list_head;
             // Uses temp to find the last node
-            while (temp -> next != NULL) {
+            while (temp) {
                 temp = temp -> next;
             }
-            temp -> next = new_node;
+            temp = new_node;
         }
         length++;
     }
@@ -88,11 +94,10 @@ namespace snakelinkedlist {
             return;
         }
         Node *remove_next = list_head;
-        while(remove_next -> next && remove_next -> next -> next) {
+        while(remove_next) {
             remove_next = remove_next -> next;
         }
-        delete remove_next -> next;
-        remove_next = nullptr;
+        delete remove_next;
         length--;
     }
     
@@ -112,14 +117,14 @@ namespace snakelinkedlist {
     }
     
     void LinkedList::clear() {
-        Node *current = list_head;
-        while(current != NULL ) {
-            Node* next_ = current -> next;
-            delete current;
-            current = next_;
+        Node *next_ = list_head;
+        while(next_) {
+            Node *deleteMe = next_;
+            next_ = next_ -> next;
+            delete deleteMe;
         }
-        list_head = NULL;
         length = 0;
+        list_head = nullptr;
     }
     
     SnakeBodySegment LinkedList::front() const {
@@ -139,7 +144,6 @@ namespace snakelinkedlist {
             temp = temp -> next;
         }
         SnakeBodySegment last_value = temp -> data;
-        delete temp;
         return last_value;
     }
     
@@ -150,7 +154,7 @@ namespace snakelinkedlist {
     std::vector<SnakeBodySegment> LinkedList::GetVector() const {
         std::vector<SnakeBodySegment> list_to_vector;
         Node *temp = list_head;
-        while (temp -> next != NULL) {
+        while (temp) {
             list_to_vector.push_back(temp -> data);
             temp = temp -> next;
         }
@@ -179,7 +183,7 @@ namespace snakelinkedlist {
         } else {
             Node *temp_this = list_head;
             Node *temp_rhs = rhs.list_head;
-            while (temp_this -> next != NULL && temp_rhs -> next != NULL) {
+            while (temp_this && temp_rhs) {
                 if (temp_this -> data != temp_rhs -> data) {
                     return false;
                 } else {
@@ -197,20 +201,18 @@ namespace snakelinkedlist {
         }
         clear();
         list_head = nullptr;
+        Node *temp = list_head;
         Node *source_node = source.list_head;
-        while (source_node -> next) {
-            if(source.list_head) {
-                list_head = new Node(*source.list_head);
-                source_node = source_node -> next;
-            }
+        while (source_node) {
+            temp = new Node(source_node -> data);
+            source_node = source_node -> next;
+            temp = temp -> next;
+            length++;
         }
         return *this;
     }
     
     bool operator!=(const LinkedList& lhs, const LinkedList& rhs) {
-        //Node *lhs_temp = lhs.list_head;
-        
         return !(lhs == rhs);
     }
-
 } // namespace snakelinkedlist

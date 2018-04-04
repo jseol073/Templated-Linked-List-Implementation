@@ -35,11 +35,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		A0BDB69F2072A45200C8A26F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0BDB69E2072A45200C8A26F /* main.cpp */; };
-		A0BDB6A02072A45200C8A26F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0BDB69E2072A45200C8A26F /* main.cpp */; };
+		A0BDB6A220740C5F00C8A26F /* snakebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */; };
 		B223A9F484E54FB38980A804 /* ll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BA58F7E71074793A4BA0960 /* ll.cpp */; };
 		CA18F916BA3F4E7F9C3C37E8 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31EEA091603944ECACF9945A /* test.cpp */; };
-		CDFE5C01E64B4F90A954E543 /* snakebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +87,6 @@
 		8500DCA63D83406AA9F1CEFB /* unit-tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "unit-tests"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A768241F3B49C092B4E788 /* ll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ll.cpp; path = src/ll.cpp; sourceTree = SOURCE_ROOT; };
 		9559C260F4FE4334945C1480 /* snakebody.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = snakebody.h; path = src/snakebody.h; sourceTree = SOURCE_ROOT; };
-		A0BDB69E2072A45200C8A26F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
 		A9EF605213864BE581086725 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		B301309CCB26447E8A24B48B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = snakebody.cpp; path = src/snakebody.cpp; sourceTree = SOURCE_ROOT; };
@@ -101,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				87A768241F3B49C092B4E788 /* ll.cpp */,
-				A0BDB69E2072A45200C8A26F /* main.cpp */,
-				D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -184,6 +179,7 @@
 			children = (
 				4BA58F7E71074793A4BA0960 /* ll.cpp */,
 				31EEA091603944ECACF9945A /* test.cpp */,
+				D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -283,7 +279,7 @@
 			files = (
 				B223A9F484E54FB38980A804 /* ll.cpp in Sources */,
 				CA18F916BA3F4E7F9C3C37E8 /* test.cpp in Sources */,
-				A0BDB6A02072A45200C8A26F /* main.cpp in Sources */,
+				A0BDB6A220740C5F00C8A26F /* snakebody.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFE5C01E64B4F90A954E543 /* snakebody.cpp in Sources */,
-				A0BDB69F2072A45200C8A26F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
