@@ -19,18 +19,6 @@ TEST_CASE("explicit constructor test") {
     REQUIRE(test_linkedlist.size() != 0);
 }
 
-//TEST_CASE("copy constructor test") {
-//    std::vector<snakelinkedlist::SnakeBodySegment> test_values;
-//    int vector_length = 5;
-//    for (int i = 0; i < vector_length; i++) {
-//        test_values.push_back(snakelinkedlist::SnakeBodySegment(i));
-//    }
-//    snakelinkedlist::LinkedList test_linkedlist = snakelinkedlist::LinkedList(test_values);
-//    snakelinkedlist::LinkedList copy_linkedlist(test_linkedlist);
-//
-//    REQUIRE(test_linkedlist == copy_linkedlist);
-//}
-
 TEST_CASE("inserting node at head test") {
     std::vector<snakelinkedlist::SnakeBodySegment> values;
     int vector_length = 5;
@@ -181,4 +169,12 @@ TEST_CASE("empty() false test") {
     snakelinkedlist::LinkedList actual_linkedlist = snakelinkedlist::LinkedList(values);
     
     REQUIRE(actual_linkedlist.empty() == false);
+}
+
+TEST_CASE("iterator operator++ test") {
+    snakelinkedlist::Iterator test;
+}
+
+TEST_CASE("iterator operator* test") {
+    
 }

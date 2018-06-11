@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.5)
 project(snake-linked-list)
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(unit-tests test/test.cpp test/catch.hpp src/ll.h src/ll.cpp src/snakebody.cpp src/snakebody.h)
+add_executable(unit-tests test/test.cpp test/catch.hpp src/ll.h src/snakebody.cpp src/snakebody.h)

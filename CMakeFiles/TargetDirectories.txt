@@ -1,4 +1,3 @@
 /Users/johnseol/snake-linked-list-jseol073/CMakeFiles/unit-tests.dir
-/Users/johnseol/snake-linked-list-jseol073/CMakeFiles/snake-linked-list.dir
 /Users/johnseol/snake-linked-list-jseol073/CMakeFiles/ALL_BUILD.dir
 /Users/johnseol/snake-linked-list-jseol073/CMakeFiles/ZERO_CHECK.dir

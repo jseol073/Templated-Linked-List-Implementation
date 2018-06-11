@@ -9,23 +9,22 @@
 /* Begin PBXAggregateTarget section */
 		1B6D4D146D514EFF9505DD8D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6CD892A5239B4F1AA93B398C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = DD8EB45899AB4CFFBB2BE8E7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				9BA547DA416147F7875D0247 /* CMake Rules */,
+				C812AB31AE3543BBA17D627C /* CMake Rules */,
 			);
 			dependencies = (
-				78A1E098F12E4C45B588B95F /* PBXTargetDependency */,
-				2AC2B0C9FF9945EEB8496B7F /* PBXTargetDependency */,
-				99CB5B3F6DFC4174A7112A7C /* PBXTargetDependency */,
+				9D69BB7BDE5645B7AFFD8A01 /* PBXTargetDependency */,
+				81016EF6A70F45A5821541A2 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		393002D766F64EFBA6DD28AD /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E439F6DEA6FC48A2B2AE7D09 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 3BD8BEA90557481980420F14 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				6522D252ED2845DCBAC03694 /* CMake Rules */,
+				2721DA7CECC144AA9A23885D /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -35,41 +34,27 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		A0BDB6A220740C5F00C8A26F /* snakebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */; };
-		B223A9F484E54FB38980A804 /* ll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BA58F7E71074793A4BA0960 /* ll.cpp */; };
-		CA18F916BA3F4E7F9C3C37E8 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31EEA091603944ECACF9945A /* test.cpp */; };
+		875D76E06F744FA2ACF6F35B /* snakebody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB58F6B32C1647F49599B665 /* snakebody.cpp */; };
+		A0DB2C89207C08B700289CE7 /* ll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E17D45011C464CFB82378137 /* ll.cpp */; };
+		F555D9326EC3403989CA6DE0 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59B1206BC9D04736B4804B08 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A6437AB5B404A28BB4D58B9 /* PBXContainerItemProxy */ = {
+		70F9461B67F243F3AE7A9A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030F27380D6048EA84999DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 393002D766F64EFBA6DD28AD;
+			remoteInfo = ZERO_CHECK;
+		};
+		99CC744AE948465E9F396EC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 030F27380D6048EA84999DD6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 42A3F1E98D9D4D79825C7F6D;
 			remoteInfo = "unit-tests";
 		};
-		7F379D6125D1413B980CCA3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 030F27380D6048EA84999DD6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 393002D766F64EFBA6DD28AD;
-			remoteInfo = ZERO_CHECK;
-		};
-		954D44D7D078473DBB16B8C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 030F27380D6048EA84999DD6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A2463065E4A44F5B48231CA;
-			remoteInfo = "snake-linked-list";
-		};
-		B557896E977C400394D82326 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 030F27380D6048EA84999DD6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 393002D766F64EFBA6DD28AD;
-			remoteInfo = ZERO_CHECK;
-		};
-		F05FCA294626453DA22ABFD3 /* PBXContainerItemProxy */ = {
+		E89B9C5ABE004645A82A6B0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 030F27380D6048EA84999DD6 /* Project object */;
 			proxyType = 1;
@@ -79,109 +64,79 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A64CBE5D2B422FABB3BA96 /* ll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ll.h; path = src/ll.h; sourceTree = SOURCE_ROOT; };
-		19C1916F683542F0A1FB4419 /* catch.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = catch.hpp; path = test/catch.hpp; sourceTree = SOURCE_ROOT; };
-		287D6D6BD730425CBB02B366 /* snake-linked-list */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "snake-linked-list"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31EEA091603944ECACF9945A /* test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = test/test.cpp; sourceTree = SOURCE_ROOT; };
-		4BA58F7E71074793A4BA0960 /* ll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ll.cpp; path = src/ll.cpp; sourceTree = SOURCE_ROOT; };
-		8500DCA63D83406AA9F1CEFB /* unit-tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "unit-tests"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87A768241F3B49C092B4E788 /* ll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ll.cpp; path = src/ll.cpp; sourceTree = SOURCE_ROOT; };
-		9559C260F4FE4334945C1480 /* snakebody.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = snakebody.h; path = src/snakebody.h; sourceTree = SOURCE_ROOT; };
-		A9EF605213864BE581086725 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B301309CCB26447E8A24B48B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = snakebody.cpp; path = src/snakebody.cpp; sourceTree = SOURCE_ROOT; };
-		E99CD66DBFA8415B9D66AF61 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1D54EDB2D8F04835BC9CE701 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1DC2DDC8A9F64B0D988C763B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		30CB16D397894D4AAF249FA9 /* catch.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = catch.hpp; path = test/catch.hpp; sourceTree = SOURCE_ROOT; };
+		59B1206BC9D04736B4804B08 /* test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = test/test.cpp; sourceTree = SOURCE_ROOT; };
+		5CEC84A1DCE44EC0824C4A9F /* unit-tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "unit-tests"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E51B086CE3B4F99BCEF095A /* snakebody.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = snakebody.h; path = src/snakebody.h; sourceTree = SOURCE_ROOT; };
+		B6E4A92EC2FA402DA76A6B3C /* ll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ll.h; path = src/ll.h; sourceTree = SOURCE_ROOT; };
+		E17D45011C464CFB82378137 /* ll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ll.cpp; path = src/ll.cpp; sourceTree = SOURCE_ROOT; };
+		FB58F6B32C1647F49599B665 /* snakebody.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = snakebody.cpp; path = src/snakebody.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		12E3EC3683504AC2B70508DA /* Source Files */ = {
+		123A643FAF6842C5AD11F2C1 = {
 			isa = PBXGroup;
 			children = (
-				87A768241F3B49C092B4E788 /* ll.cpp */,
+				F5E780B141A94F7AB22EF599 /* unit-tests */,
+				46BA321A965E471A947B290C /* ALL_BUILD */,
+				E9ED935398674964A252F4C2 /* Products */,
 			);
-			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		595B1822739E403A87DB2BCA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				287D6D6BD730425CBB02B366 /* snake-linked-list */,
-				8500DCA63D83406AA9F1CEFB /* unit-tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5963D4F04A1A4CAEBF2158AA /* CMake Rules */ = {
+		35AE42FD4E694139A9676077 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		5DBB0CA6A1FD43BDB3202B19 /* ALL_BUILD */ = {
+		46BA321A965E471A947B290C /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				5963D4F04A1A4CAEBF2158AA /* CMake Rules */,
-				B301309CCB26447E8A24B48B /* CMakeLists.txt */,
+				35AE42FD4E694139A9676077 /* CMake Rules */,
+				1D54EDB2D8F04835BC9CE701 /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		690FBFF037614417AAABE355 = {
+		944CB5A8FC6C4F659D7CB1EB /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA3AEF6CD90742EA918004B8 /* unit-tests */,
-				9119FA1E74E94C06B0D308E8 /* snake-linked-list */,
-				5DBB0CA6A1FD43BDB3202B19 /* ALL_BUILD */,
-				595B1822739E403A87DB2BCA /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		9119FA1E74E94C06B0D308E8 /* snake-linked-list */ = {
-			isa = PBXGroup;
-			children = (
-				E2AF4ED2845B46B7BD91A111 /* Header Files */,
-				12E3EC3683504AC2B70508DA /* Source Files */,
-				E99CD66DBFA8415B9D66AF61 /* CMakeLists.txt */,
-			);
-			name = "snake-linked-list";
-			sourceTree = "<group>";
-		};
-		BA3AEF6CD90742EA918004B8 /* unit-tests */ = {
-			isa = PBXGroup;
-			children = (
-				FEAD2F75D6794E1094187A45 /* Source Files */,
-				F3825363D9484E8788389E3F /* Header Files */,
-				A9EF605213864BE581086725 /* CMakeLists.txt */,
-			);
-			name = "unit-tests";
-			sourceTree = "<group>";
-		};
-		E2AF4ED2845B46B7BD91A111 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				01A64CBE5D2B422FABB3BA96 /* ll.h */,
-				9559C260F4FE4334945C1480 /* snakebody.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		F3825363D9484E8788389E3F /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				19C1916F683542F0A1FB4419 /* catch.hpp */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		FEAD2F75D6794E1094187A45 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				4BA58F7E71074793A4BA0960 /* ll.cpp */,
-				31EEA091603944ECACF9945A /* test.cpp */,
-				D4FD3FA68A184A1BBA6B1E82 /* snakebody.cpp */,
+				E17D45011C464CFB82378137 /* ll.cpp */,
+				FB58F6B32C1647F49599B665 /* snakebody.cpp */,
+				59B1206BC9D04736B4804B08 /* test.cpp */,
 			);
 			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CFD14EEE28184079A0550C54 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E4A92EC2FA402DA76A6B3C /* ll.h */,
+				9E51B086CE3B4F99BCEF095A /* snakebody.h */,
+				30CB16D397894D4AAF249FA9 /* catch.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E9ED935398674964A252F4C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC84A1DCE44EC0824C4A9F /* unit-tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E780B141A94F7AB22EF599 /* unit-tests */ = {
+			isa = PBXGroup;
+			children = (
+				944CB5A8FC6C4F659D7CB1EB /* Source Files */,
+				CFD14EEE28184079A0550C54 /* Header Files */,
+				1DC2DDC8A9F64B0D988C763B /* CMakeLists.txt */,
+			);
+			name = "unit-tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,34 +144,18 @@
 /* Begin PBXNativeTarget section */
 		42A3F1E98D9D4D79825C7F6D /* unit-tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8F106C67C084BF9A707D31D /* Build configuration list for PBXNativeTarget "unit-tests" */;
+			buildConfigurationList = 5BF56F182A8B4CFD82FCD67B /* Build configuration list for PBXNativeTarget "unit-tests" */;
 			buildPhases = (
-				049BF0532BCA4232859143CA /* Sources */,
+				A38D17BED3834755956A55DE /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FBAE95941314963A1BFFFA8 /* PBXTargetDependency */,
+				0BEED556EE514CEDA3032A78 /* PBXTargetDependency */,
 			);
 			name = "unit-tests";
 			productName = "unit-tests";
-			productReference = 8500DCA63D83406AA9F1CEFB /* unit-tests */;
-			productType = "com.apple.product-type.tool";
-		};
-		5A2463065E4A44F5B48231CA /* snake-linked-list */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4ED6CA9B5BE4482192006938 /* Build configuration list for PBXNativeTarget "snake-linked-list" */;
-			buildPhases = (
-				CADE7FA101774DEEA9E6F780 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4BB16836B3149AC9EA9F2E1 /* PBXTargetDependency */,
-			);
-			name = "snake-linked-list";
-			productName = "snake-linked-list";
-			productReference = 287D6D6BD730425CBB02B366 /* snake-linked-list */;
+			productReference = 5CEC84A1DCE44EC0824C4A9F /* unit-tests */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -226,29 +165,28 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 6A352604C75D475CAD9321EC /* Build configuration list for PBXProject "snake-linked-list" */;
+			buildConfigurationList = 96ECFC3A3B2A4331B6AA8A57 /* Build configuration list for PBXProject "snake-linked-list" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 690FBFF037614417AAABE355;
+			mainGroup = 123A643FAF6842C5AD11F2C1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1B6D4D146D514EFF9505DD8D /* ALL_BUILD */,
 				393002D766F64EFBA6DD28AD /* ZERO_CHECK */,
-				5A2463065E4A44F5B48231CA /* snake-linked-list */,
 				42A3F1E98D9D4D79825C7F6D /* unit-tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6522D252ED2845DCBAC03694 /* CMake Rules */ = {
+		2721DA7CECC144AA9A23885D /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,7 +197,7 @@
 			shellScript = "make -C /Users/johnseol/snake-linked-list-jseol073 -f /Users/johnseol/snake-linked-list-jseol073/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		9BA547DA416147F7875D0247 /* CMake Rules */ = {
+		C812AB31AE3543BBA17D627C /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,344 +211,41 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		049BF0532BCA4232859143CA /* Sources */ = {
+		A38D17BED3834755956A55DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B223A9F484E54FB38980A804 /* ll.cpp in Sources */,
-				CA18F916BA3F4E7F9C3C37E8 /* test.cpp in Sources */,
-				A0BDB6A220740C5F00C8A26F /* snakebody.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CADE7FA101774DEEA9E6F780 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				875D76E06F744FA2ACF6F35B /* snakebody.cpp in Sources */,
+				A0DB2C89207C08B700289CE7 /* ll.cpp in Sources */,
+				F555D9326EC3403989CA6DE0 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2AC2B0C9FF9945EEB8496B7F /* PBXTargetDependency */ = {
+		0BEED556EE514CEDA3032A78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 393002D766F64EFBA6DD28AD /* ZERO_CHECK */;
-			targetProxy = B557896E977C400394D82326 /* PBXContainerItemProxy */;
+			targetProxy = E89B9C5ABE004645A82A6B0A /* PBXContainerItemProxy */;
 		};
-		78A1E098F12E4C45B588B95F /* PBXTargetDependency */ = {
+		81016EF6A70F45A5821541A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 42A3F1E98D9D4D79825C7F6D /* unit-tests */;
-			targetProxy = 0A6437AB5B404A28BB4D58B9 /* PBXContainerItemProxy */;
+			targetProxy = 99CC744AE948465E9F396EC8 /* PBXContainerItemProxy */;
 		};
-		7FBAE95941314963A1BFFFA8 /* PBXTargetDependency */ = {
+		9D69BB7BDE5645B7AFFD8A01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 393002D766F64EFBA6DD28AD /* ZERO_CHECK */;
-			targetProxy = F05FCA294626453DA22ABFD3 /* PBXContainerItemProxy */;
-		};
-		99CB5B3F6DFC4174A7112A7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A2463065E4A44F5B48231CA /* snake-linked-list */;
-			targetProxy = 954D44D7D078473DBB16B8C5 /* PBXContainerItemProxy */;
-		};
-		F4BB16836B3149AC9EA9F2E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 393002D766F64EFBA6DD28AD /* ZERO_CHECK */;
-			targetProxy = 7F379D6125D1413B980CCA3E /* PBXContainerItemProxy */;
+			targetProxy = 70F9461B67F243F3AE7A9A5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		077E86CBB0474C42947DC3B8 /* Release */ = {
+		0891603DA81A4841A1404195 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=gnu++14'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "unit-tests";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		15C53AA647D54CBFAD3670DB /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		3A63EF726B3642AA808BEB8E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		3DD404884A45468CA55FD6A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		3FA57315AB7F415B96DB2FBC /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		3FE18EA56C4D4BB68CDA1799 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		4D56E407E82B4536847E4706 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=gnu++14'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "snake-linked-list";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		5FFE5A05D15D40DE9AC3CCE2 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=gnu++14'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "unit-tests";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		6476448ED0AA4294B051D05B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		79334236648C43B8942A688B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "unit-tests";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		B35E4CF260FF43E79C6965A9 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
@@ -643,27 +278,356 @@
 			};
 			name = MinSizeRel;
 		};
-		B8544597AA03420CBFD38BDA /* RelWithDebInfo */ = {
+		27DEA33B62224D9697E5E48F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073/build";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
-			name = RelWithDebInfo;
+			name = Release;
 		};
-		BFDAFA8AB3164FB590932D73 /* MinSizeRel */ = {
+		4E033E98C37F4A4991B0D601 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		67FDFF2430B04BD2949B5563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "unit-tests";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		73D4985184204948941A43C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		7ABE3D13EFED423291865534 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073/build";
 			};
 			name = MinSizeRel;
 		};
-		C36217DF14B2417095C04CE3 /* Debug */ = {
+		7FD3B820D8E64A54A9042EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		8092540867FB4865BE2C2A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		8155B72F7F2C43A0A216C42B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9B227B42C99B4D92B158A169 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		A73CD47202A94DF1A48EDD8E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		BBE37B84D8B74E24A0ADBF57 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		CD8B5DE18B53462DB70C9DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073/build";
+			};
+			name = Release;
+		};
+		D848CD597ADF4A018DA11DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
@@ -680,7 +644,7 @@
 					"-Wl,-headerpad_max_install_names",
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "snake-linked-list";
+				PRODUCT_NAME = "unit-tests";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
@@ -693,18 +657,10 @@
 			};
 			name = Debug;
 		};
-		C6133787DE2348A1A041EF99 /* Release */ = {
+		DBE6FB0FF65046B4AC047E5C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073/build";
-			};
-			name = Release;
-		};
-		CAE8767D98474F3FA972075E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
@@ -724,7 +680,7 @@
 					"-Wl,-headerpad_max_install_names",
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "snake-linked-list";
+				PRODUCT_NAME = "unit-tests";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
 				USE_HEADERMAP = NO;
@@ -737,154 +693,84 @@
 			};
 			name = RelWithDebInfo;
 		};
-		E34F2246B8054D80A2F1268D /* MinSizeRel */ = {
+		DD66DD98B26A46D7BA9C41D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		EBFE168C02BF47C7892C9F0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
 				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073/build";
 			};
 			name = Debug;
-		};
-		EFE66CF5362B4A66A5B239E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		F7E320B615064BEDBA082C16 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=gnu++14'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "snake-linked-list";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/johnseol/snake-linked-list-jseol073";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4ED6CA9B5BE4482192006938 /* Build configuration list for PBXNativeTarget "snake-linked-list" */ = {
+		3BD8BEA90557481980420F14 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C36217DF14B2417095C04CE3 /* Debug */,
-				4D56E407E82B4536847E4706 /* Release */,
-				F7E320B615064BEDBA082C16 /* MinSizeRel */,
-				CAE8767D98474F3FA972075E /* RelWithDebInfo */,
+				8092540867FB4865BE2C2A03 /* Debug */,
+				27DEA33B62224D9697E5E48F /* Release */,
+				4E033E98C37F4A4991B0D601 /* MinSizeRel */,
+				9B227B42C99B4D92B158A169 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6A352604C75D475CAD9321EC /* Build configuration list for PBXProject "snake-linked-list" */ = {
+		5BF56F182A8B4CFD82FCD67B /* Build configuration list for PBXNativeTarget "unit-tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBFE168C02BF47C7892C9F0A /* Debug */,
-				C6133787DE2348A1A041EF99 /* Release */,
-				BFDAFA8AB3164FB590932D73 /* MinSizeRel */,
-				B8544597AA03420CBFD38BDA /* RelWithDebInfo */,
+				D848CD597ADF4A018DA11DAC /* Debug */,
+				67FDFF2430B04BD2949B5563 /* Release */,
+				0891603DA81A4841A1404195 /* MinSizeRel */,
+				DBE6FB0FF65046B4AC047E5C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6CD892A5239B4F1AA93B398C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		96ECFC3A3B2A4331B6AA8A57 /* Build configuration list for PBXProject "snake-linked-list" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6476448ED0AA4294B051D05B /* Debug */,
-				3FE18EA56C4D4BB68CDA1799 /* Release */,
-				15C53AA647D54CBFAD3670DB /* MinSizeRel */,
-				3FA57315AB7F415B96DB2FBC /* RelWithDebInfo */,
+				DD66DD98B26A46D7BA9C41D7 /* Debug */,
+				CD8B5DE18B53462DB70C9DB6 /* Release */,
+				7ABE3D13EFED423291865534 /* MinSizeRel */,
+				8155B72F7F2C43A0A216C42B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C8F106C67C084BF9A707D31D /* Build configuration list for PBXNativeTarget "unit-tests" */ = {
+		DD8EB45899AB4CFFBB2BE8E7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79334236648C43B8942A688B /* Debug */,
-				077E86CBB0474C42947DC3B8 /* Release */,
-				B35E4CF260FF43E79C6965A9 /* MinSizeRel */,
-				5FFE5A05D15D40DE9AC3CCE2 /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		E439F6DEA6FC48A2B2AE7D09 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFE66CF5362B4A66A5B239E4 /* Debug */,
-				3DD404884A45468CA55FD6A4 /* Release */,
-				E34F2246B8054D80A2F1268D /* MinSizeRel */,
-				3A63EF726B3642AA808BEB8E /* RelWithDebInfo */,
+				73D4985184204948941A43C7 /* Debug */,
+				7FD3B820D8E64A54A9042EF1 /* Release */,
+				BBE37B84D8B74E24A0ADBF57 /* MinSizeRel */,
+				A73CD47202A94DF1A48EDD8E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

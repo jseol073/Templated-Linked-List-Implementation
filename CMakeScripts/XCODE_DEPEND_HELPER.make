@@ -7,19 +7,9 @@ default:
 # Rules to remove targets that are older than anything to which they
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
-PostBuild.snake-linked-list.Debug:
-/Users/johnseol/snake-linked-list-jseol073/Debug/snake-linked-list:
-	/bin/rm -f /Users/johnseol/snake-linked-list-jseol073/Debug/snake-linked-list
-
-
 PostBuild.unit-tests.Debug:
 /Users/johnseol/snake-linked-list-jseol073/Debug/unit-tests:
 	/bin/rm -f /Users/johnseol/snake-linked-list-jseol073/Debug/unit-tests
-
-
-PostBuild.snake-linked-list.Release:
-/Users/johnseol/snake-linked-list-jseol073/Release/snake-linked-list:
-	/bin/rm -f /Users/johnseol/snake-linked-list-jseol073/Release/snake-linked-list
 
 
 PostBuild.unit-tests.Release:
@@ -27,19 +17,9 @@ PostBuild.unit-tests.Release:
 	/bin/rm -f /Users/johnseol/snake-linked-list-jseol073/Release/unit-tests
 
 
-PostBuild.snake-linked-list.MinSizeRel:
-/Users/johnseol/snake-linked-list-jseol073/MinSizeRel/snake-linked-list:
-	/bin/rm -f /Users/johnseol/snake-linked-list-jseol073/MinSizeRel/snake-linked-list
-
-
 PostBuild.unit-tests.MinSizeRel:
 /Users/johnseol/snake-linked-list-jseol073/MinSizeRel/unit-tests:
 	/bin/rm -f /Users/johnseol/snake-linked-list-jseol073/MinSizeRel/unit-tests
-
-
-PostBuild.snake-linked-list.RelWithDebInfo:
-/Users/johnseol/snake-linked-list-jseol073/RelWithDebInfo/snake-linked-list:
-	/bin/rm -f /Users/johnseol/snake-linked-list-jseol073/RelWithDebInfo/snake-linked-list
 
 
 PostBuild.unit-tests.RelWithDebInfo:
